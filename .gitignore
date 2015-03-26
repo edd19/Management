@@ -8,6 +8,7 @@
 *.toc
 *.backup
 *~
+*.kate-swp
 
 ## Intermediate documents:
 *.dvi
