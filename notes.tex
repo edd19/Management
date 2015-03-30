@@ -7,16 +7,55 @@
 \usepackage[left=2.2cm, right=2.2cm, top=2.5cm, bottom=2.5cm]{geometry} % Mise en page
 \usepackage{multicol} % Texte en multicolonnes avec multicols
 \usepackage{placeins}
+\usepackage{titling}
 
 \graphicspath{{res/}}
 
-\title{LECGE1321 - Management Humain}
-\author{Florian Thuin}
-
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
 \begin{document}
 
-\maketitle
+\begin{titlepage}
+\begin{center}
+
+% Upper part of the page. The '~' is needed because \\
+% only works if a paragraph has started.
+\includegraphics[width=0.15\textwidth]{./logo_ucl.png}~\\[1cm]
+
+\textsc{\LARGE Université Catholique de Louvain}\\[1.5cm]
+
+\textsc{\Large Notes de cours}\\[0.5cm]
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries LECGE1321 - Management humain \\[0.4cm] }
+
+\HRule \\[1.5cm]
+
+% Author and supervisor
+\noindent
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Auteur:}\\
+Florian \textsc{Thuin}
+\end{flushleft}
+\end{minipage}%
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Professeur :} \\
+Nathalie \textsc{Delobbe}
+\end{flushright}
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+\end{titlepage}
+
+%\maketitle
 \tableofcontents
 
 \section{Introduction}
@@ -363,7 +402,9 @@
 	\subsubsection{Conception de la fonction RH}
 	Le RH est vu comme un \og{} agent de changement\fg{} (selon D. Ulrich) avec le département du développement social.
 	
+	C'est un facilitateur interne, il acccompagne les changements organisationnels : réorganisation, introduction de nouvelles technologies,...
 	
+	Le profil du DRH est d'être un consultant interne, un gestionnaire de projet.
 	
 	\subsubsection{Les pratiques héritées}
 	
