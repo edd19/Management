@@ -14,6 +14,7 @@ Ce dossier contient les notes de cours de l'année 2014-2015. Ce cours de manage
 
 ### Contributeur(s):
 * Florian Thuin
+* Eddy Ndizera
 
 ## Slides de cours
 
