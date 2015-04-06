@@ -8,6 +8,7 @@
 \usepackage{multicol} % Texte en multicolonnes avec multicols
 \usepackage{placeins}
 \usepackage{titling}
+\usepackage{hyperref}
 
 \graphicspath{{res/}}
 
@@ -61,7 +62,6 @@ Nathalie \textsc{Delobbe}
 
 \section{Introduction}
   \subsection{Le champ du management humain}
-  \subsection{Cas type : France Telecom}
   \subsection{Un outil d'analyse : les niveaux d'Ardoino}
   Les niveaux d'intelligibilité d'Ardoino sont un modèle d'analyse d'une réalité sociale. Celui-ci permet de mettre en défaut la pensée simpliste qui consiste à attribuer une erreur à un facteur individuel (\og{} erreur fondamentale d'attribution\fg{}). La théorie fondamentale de l'attribution consiste d'une part à attribuer sa propre réussite à soi-même et ses échecs à un contexte et d'autre part à attribuer la réussite des autres à un contexte et leurs échecs à eux-mêmes.
   
@@ -84,6 +84,33 @@ Nathalie \textsc{Delobbe}
    \item[Niveau institutionnel] : les valeurs, les normes, la culture. Ce niveau étudie les institutions publiques, les cadres politique, juridique, social et économique ainsi que les règles formelles (lois) et informelles (culture, traditions) qui régissent l'ensemble de la société.
    \item[Niveau d'historicité] : analyse des autres dimensions à travers l'histoire. Ce niveau étudie les transformations de la société, les mouvements sociaux, les tendances économiques, les rapports de force entre les classes sociales,...
   \end{description}
+  \subsection{Cas type : France Telecom}
+  
+  Si on applique le modèle d'Ardoino sur le phénomène de vague de suicides qu'à connu France Télécom\footnote{\url{https://www.youtube.com/watch?v=YBXp45yYIA8}}, on obtient ceci:
+  \begin{enumerate}
+  \item \textbf{Individuel}:    \begin{itemize}
+  								\item préférences
+  								\item vie personnelle
+  								\item PDG remis en question
+  								\end{itemize}
+  \item \textbf{Relationnel et groupal}:    \begin{itemize}
+  											\item effet de mode pour le suicide
+  											\item abus de pouvoir de la hiérarchie
+  											\item isolement au travail, liens sociaux rompus
+  											\item communication très autoritaire avec peu de dialogue (leadership autoritaire)
+  											\end{itemize}
+  \item \textbf{Organisationnel}:   \begin{itemize}
+  									\item plan de mobilité du personnel
+  									\item changement de culture, on passe d'une entreprise public à une entreprise privée
+  									\item hiérarchie forte
+  									\item le passage de public à privé pousse à une réorganisation des sources financières (70\% masse salariale)
+  									\end{itemize}
+  \item \textbf{Institutionnel}:  	\begin{itemize}
+  									\item gestion du personnel sortant du cadre juridique français (on devient plus nord-américain), tradition d'écoute du salarié
+  									\item marché du travail rigide
+  									\item changement de statut des travailleurs (avant, fonctionnaires pas de licenciement)
+  									\end{itemize}
+\end{enumerate}   
   \subsection{Management humain : de quoi parle-t-on ?}
     \subsubsection{People management}
       Le people management correspond à l'encadrement des employés et au leadership par différents moyens :
@@ -153,6 +180,8 @@ Nathalie \textsc{Delobbe}
 
 	  % TODO : Include la représentation des rôles RH Ulrich
 	  
+	  Comme on peut le voir sur le schéma (?), l'axe \textbf{opérationnel} tient compte plus des objectifs internes à l'entreprise tandis que l'axe \textbf{stratégique} prend en compte plus la survie à l'environnement auquel évolue l'entreprise. De plus, une entreprise peut être centré davantage sur les \textbf{personnes} ou bien sur l'efficience (\textbf{processus}), intérêts économiques.\newline
+	  
 	  \begin{description}
 	   \item[Expert administratif] : rôle centré sur la surveillance des contrats de travail et des règlements (processus et résultats)
 	   \item[Champion des employés] : rôle centré sur la motivation des employés (la personne et son développement).
@@ -189,9 +218,11 @@ Nathalie \textsc{Delobbe}
 	  
 	  \paragraph{Bureaucratie Wéberienne}
 	  \begin{description}
-	   \item[Formalisation et impersionnalité] : la règle remplace la tradition et l'arbitraire
-	   \item[Centralisation et hiérarchisation] : structure hiérarchique conforme au principe d'unité de commandement (= un agent ne doit recevoir des ordres que d'un seul chef)
+	   \item[Formalisation et impersonnalité] : la règle remplace la tradition et l'arbitraire.
+	   \item[Centralisation et hiérarchisation] : structure hiérarchique conforme au principe d'unité de commandement (= un agent ne doit recevoir des ordres que d'un seul chef) \newline
 	  \end{description}
+	  
+		La bureaucratie Wéberienne veut donc que les règles soient les mêmes pour tout le monde. De plus chaque membre devrait relever d'un supérieur hiérarchique.
 	  
 	  \subsubsection{Les options stratégiques}
 	  \begin{description}
@@ -203,11 +234,11 @@ Nathalie \textsc{Delobbe}
 	  
 	  L'homme était vu comme une main d'oeuvre vite opérationnelle et substituable. C'est l'époque de la dominance \textit{behavioriste} en psychologie industrielle.
 	  
-	  Le behaviorisme est la concentrationo sur le comportement observable déterminé par l'environnement et l'histoire des interactions de l'individu avec son milieu, sans faire appel à des mécanismes internes.
+	  Le behaviorisme est la concentration sur le comportement observable déterminé par l'environnement et l'histoire des interactions de l'individu avec son milieu, sans faire appel à des mécanismes internes.
 	  
 	  \emph{Postulat de l'homme économique} : un être paresseux attiré par les stimulations monétaires, irrationnel dont il faut organiser, planifier, contrôler le travail.
 	  
-	  \emph{Forme d'intégration} : engagement calculé, fondé sur des incitants extrinsèques.
+	  \emph{Forme d'intégration} : engagement calculé, fondé sur des incitants extrinsèques (comme le fait de vouloir éviter le chômage).
 	  
 	  \subsubsection{Conception de la fonction RH}
 	  
@@ -215,9 +246,9 @@ Nathalie \textsc{Delobbe}
 	  
 	  \begin{itemize}
 	   \item Administration des contrats de travail ;
-	   \item Conception des systèmes de contrôle formel ;
-	   \item Elaboration des systèmes de rémunérations/incitations et gestion de paie ;
-	   \item Prévention et gestion des conflits sociaux
+	   \item Conception des systèmes de contrôle formel (règles, blâmes, ...) ;
+	   \item Elaboration des systèmes de rémunérations/incitations et gestion de paie (payroll) ;
+	   \item Prévention et gestion des conflits sociaux (concertation sociale). 
 	  \end{itemize}
 	  
 	  Le profil du DRH est un ingénieur (optimisation des processus) et un juriste (contrats et conflits).
@@ -225,7 +256,8 @@ Nathalie \textsc{Delobbe}
 	  \subsubsection{Pratiques héritées de la RH}
 	  
 	  \begin{itemize}
-	   \item Analyse du travail et description de poste ;
+	   \item Analyse du travail et description de poste ; \newline
+	   ex: Le chronométrage du temps pour les tâches issus de l'organisation scientifique du travail (Taylor).
 	   \item Développement de la réglementation sociale (règlement de travail, droit social) ;
 	   \item Développement de la concertation sociale en réponse au mouvement ouvrier et au syndicalisme
 	   \item Classification des emplois et barèmes salariaux ;
@@ -288,7 +320,7 @@ Nathalie \textsc{Delobbe}
 	  
 	  Globalement, on peut dire que l'homme n'est plus uniquement motivé par des besoins économiques mais que des besoins socio-affectifs affectent également sa productivité.
 	  
-	  
+	%TODO illustration théorie X et Y 	  
 	  \subsubsection{Conception de la fonction RH}
 	  
 	  Le DRH est \og{} champion des employés\fg{} (selon D. Ulrich) : directeur des relations humaines.
@@ -308,12 +340,12 @@ Nathalie \textsc{Delobbe}
 	  Cette période correspond au développement des fonctions-clés de la GRH :
 	  
 	  \begin{itemize}
-	   \item Sélection sur base de dimensions psychologiques (motivations, aspirations,...)
-	   \item Formation aux relations humaines (leadership,...)
-	   \item Evaluation du personnel et MBO : management by objective = différence entre tâche (chose à réaliser) et objectif (résultat visé)
-	   \item Gestion des carrières : importance des cadres dans les grosses entreprises (proposer des perspectives de carrière)
-	   \item Communication interne
-	   \item Enquête de climat social et développement de la culture d'entreprise
+	   \item \textbf{Sélection} sur base de dimensions \textbf{psychologiques} (motivations, aspirations,...).
+	   \item \textbf{Formation} aux relations humaines (leadership,...). Dans l'Organisation Scientifique du Travail, la formation est très rapide et minimum. Ici les pratiques de formation sont plus larges et basées sur des dispositions plus psychologiques.
+	   \item \textbf{Evaluation} du personnel et MBO : management by objective = différence entre tâche (chose à réaliser) et objectif (résultat visé). On vérifie maintenant si le personnel effectue ce qui lui est demandé et non plus le temps.
+	   \item Gestion des \textbf{carrières} : importance des cadres dans les grosses entreprises (proposer des perspectives de carrière).
+	   \item \textbf{Communication} interne via gazette pour informer et sensibiliser le travailleur.
+	   \item Enquête de \textbf{climat social} et développement de la culture d'entreprise.
 	  \end{itemize}
 	  
 	\subsection{L'approche socio-technique}
@@ -387,6 +419,18 @@ Nathalie \textsc{Delobbe}
 	\end{enumerate}
 
 	% TODO : Expérience de Trist & Bamforth sur les mines de charbon
+	\subsubsection*{Expérience de Trist \& Bamforth}
+	
+	L'étude de E.Trist \& K.Bamforth opère autour d'une mine de charbons dont on automatise le transport (installation de wagonnets). Ce qu'ils constatent, c'est que ceci à pour effet de décroître la production. On est moins productif alors que tout mène à penser que le fait d'installer des wagonnets pour transporter le charbons devrait faciliter la tâche des travailleurs. \newline
+	
+	Selon Trist et Bamforth, cet effet néfaste a pour explications qu'on a touché, avec l'automatisation du transport, profondément au système social. En effet, dans ce milieu de mineurs très anxiogène, il y avait tout un imaginaire entre ces mineures. Il y avait un implicite collectif, un état d'esprit qui permettait à ces derniers de faire face à l'anxiété. Mais avec l'installation de wagonnets, les équipes se sont vu passer de 6 à 2. \newline
+	
+	Ce phénomène est aussi observable dans la Poste. En effet, il y a eu un grand débat avec l'installation d'un logiciel "\textit{géroute}" qui avait comme fonction de calculer les parcours pour les postiers. Ceci a eu pour effet de toucher aussi le système social des postiers. En effet, les postiers ne disposent plus des 2 heures de papotages qu'ils avaient avant quand ils triaient le courrier. Ceci est automatisé maintenant. Ils arrivent au boulot, ils ont déjà leurs lettres bien triés. Leurs parcours étant prédéfini désormais, il n'y a plus ces arrangements quand il s'agit de laisser Pierre faire la tournée de telle ville afin de pouvoir voir sa mère. \newline
+	
+	%Mieux expliquer cette phrase
+	Ce système est toutefois dynamique. Il peut s'adapter.\newline
+	
+	La \textbf{méthodologie de recherche-action} est, dans le cas de la Poste, de soumettre aux postiers le problème (on doit être plus efficace) et les différentes solutions (géoroute). Ceci afin d'ouvrir une discussion avec les personnes concernées pour prendre mieux en compte les différents éléments à prendre au jeu. 
 	
 	
 	\subsubsection{Conception de l'homme}
@@ -658,7 +702,6 @@ Nathalie \textsc{Delobbe}
 		
 		\subsubsection{Types}
 		
-		%TODO ajouter les fléches des slides page 7 et 8
 		On peut distinguer les groupes selon leur \textit{objectif} et la façon dont les \textit{interdépendances} sont structurés.	A partir de cela, on obtient 2 groupes: \newline
 		
 		Le \textbf{groupe informel} qui n'a pas de structure formellement définie par l'organisation. Ces groupes ne sont pas négligeables. C'est à l'intérieur de ces groupes que se transmettent les rumeurs,... De plus, s'ils ne sont composés d'aucun employés travaillant ensemble, on peut supposer qu'il y a des soucis (surtout vrai pour les groupes d'affinités). Le groupe informel peut lui-même être subdivisé en 2 catégories:
@@ -688,12 +731,12 @@ Nathalie \textsc{Delobbe}
 		
 	\subsection{Dynamique des groupes restreints}
 	
-	Un \textbf{groupe restreint} est un groupe disposant d'un nombre de membres réduit (inférieur à 20).
-	%TODO trouver définition de dynamique des groupes
+	Un \textbf{groupe restreint} est un groupe disposant d'un nombre de membres réduit (inférieur à 20). \newline
+	
+	La \textbf{dynamique de groupe} est l'ensemble des phénomènes, mécanismes et processus psychiques et sociologiques qui émergent et se développent dans les petits groupes sociaux.
 	
 		\subsubsection{Anzieu et Martin (1968)}
-	
-			
+		%TODO 
 		
 		\subsubsection{Les étapes de la vie d’un groupe (Tuckman, 1965)}
 		
@@ -735,9 +778,42 @@ Nathalie \textsc{Delobbe}
 				
 		\subsubsection{Structuration des rôles et statuts}
 		
+		Les \textbf{rôles} sont un ensemble d'attitudes et comportements attendus de celui qui occupe une position dans un groupe. \newline 
+		%TODO trouver une meilleure phrase
+		Plusieurs catégories par rapport au rôle:
+		\begin{itemize}
+		\item \textbf{Attentes de rôles}: du fait qu'on occupe un rôle bien déterminé, les autres membres (ou même des extérieures au groupe) peuvent avoir certaines attentes par rapport à toi. Parfois des attentes non fondées. Il y a donc risque de conflits et d'ambiguïtés de rôles.
+		\item \textbf{Identité de rôle}: attitudes et comportements attendus du rôle. On peut changer aussi de rôle, identités multiples qui sont parfois conflictuelles. C'est la vision que se font les autres du rôles.
+		\item \textbf{Perception de rôle}: idée qu'on se fait des attitudes et comportements à prendre du rôle qu'on occupe. Il y a risque de décalage entre attentes et perceptions. C'est la vision que moi, qui occupe le rôle, se fait justement de ce rôle. \newline
+		\end{itemize}
+		
+		%TODO ajouter lien youtube.
+		On peut illustrer la notion de rôle par l'\textbf{expérience de Zimbardo}(1971).C'est une étude  de  psychologie  expérimentale  sur  les  effets  de  la  situation  carcérale. Des  étudiants 
+(sélectionnés  pour  leur  stabilité  et  leur  maturité) jouent  aléatoirement  le  rôle  de  gardiens  ou  de 
+prisonniers. Cette expérience vise l’étude du comportement de personnes ordinaires dans un tel contexte, l’étude 
+eut pour effet de montrer que c’est la \textbf{situation plutôt que la personnalité des participants qui était 
+à l’origine de comportements parfois à l’opposé des valeurs professées par les participants avant 
+l’étude}. Les étudiants agissent en fonction de leur rôle et non en fonction de leurs croyances. \newline
+
+		Le \textbf{statut} est un ensemble d'attributs liés à la position d'un individu dans un système culturel donné. \newline
+		
+		On peut aussi définir le \textbf{statut} comme étant la place ou le rang occupé au sein d'un groupe et conférant un certain prestige.\newline
+		
+		Il existe \textbf{3} sources de statut. La première source est le \textbf{pouvoir exercé sur les autres}.	 La deuxième est la \textbf{capacité à contribuer aux objectifs du groupe}. Enfin, les dernières sont les \textbf{singularités propres à l'individu, valorisées par les groupe et le système culturel}. \newline
+		
+		Tout ceci influence le conformisme, les interactions et le sentiment d'équité. Une personne qui se conforme moins aux normes dispose souvent d'un statut plus élevé. De même, le fait de couper la paroles, se faire grand, ... sont les signes de quelqu'un qui occupe un statut privilégié (même si cela peut être négatif).
+		
+		\subsubsection*{Les 9 rôles d'équipiers de Belbin(1988)}		
 		
 		
+		%Source belbinfrance.com		
+		La \textbf{méthode Belbin} est un outil rationnel et rigoureux qui permet d'évaluer, de manière non intuitive, la coopération des membres d'une équipe. En identifiant les rôles endossés par chacun, on peut augmenter l'efficacité  des équipes en jouant, à bon escient , sur sa composition ou sur son fonctionnement interne.Il existe 9 rôles réparties en 3 catégories.\newline
+		
+		La \textbf{molécule de Belbin} illustre parfaitement le fait que les rôles se complémentent et que chaque rôle doit être présent dans l'équipe. \newline
+		%TODO ajouter les schémas.
 		\subsubsection{Normes, valeurs et conformisme}
+		
+				
 		\subsubsection{La pensée de groupe (Janis, 1972)}
 	\subsection{Le groupe, levier de changement}
 	\subsection{Entreprise flexible : l’équipe de travail, lieu d’efficacité}
