@@ -7,7 +7,7 @@ Ce dossier contient les notes de cours de l'année 2014-2015. Ce cours de manage
 * Panorama historique et rôles de la fonction RH - OK
 * Culture organisationnelle - Part. OK
 * La motivation au travail - VIDE
-* Dynamique de groupe - Vide
+* Dynamique de groupe - OK
 * Leadership - Vide
 * Motivation au travail - Vide
 * Conclusion - Vide
