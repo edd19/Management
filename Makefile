@@ -43,3 +43,4 @@ show: $(PDF_NAME)
 
 release: all
 	smartcp -v config.yml
+
