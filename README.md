@@ -20,3 +20,13 @@ Ce dossier contient les notes de cours de l'année 2014-2015. Ce cours de manage
 
 ### Contributeur(s):
 * Florian Thuin
+
+## Travail (table ronde)
+
+### Contributeur(s) :
+* Florian Thuin
+* Eddy Ndizera
+* Léonard Julémont
+* Aymeric De Cocq
+* Ivan Ahad
+* Solaiman El Jilali
