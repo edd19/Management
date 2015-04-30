@@ -24,9 +24,25 @@ Ce dossier contient les notes de cours de l'année 2014-2015. Ce cours de manage
 ## Travail (table ronde)
 
 ### Contributeur(s) :
+Groupe A7 (13.5/20) :
 * Florian Thuin
 * Eddy Ndizera
 * Léonard Julémont
 * Aymeric De Cocq
 * Ivan Ahad
 * Solaiman El Jilali
+
+Groupe C1 (14.5/20) :
+* Gabrielle Van Outryve
+* Alice Coupez
+* Justine Gérard
+* Céline Fanuel
+* Floriane Defacqz
+* Pauline Steisel
+
+Groupe H2 (15/20) :
+* Elisabeth Adant
+* Marie-Noëlle Bissot
+* Thibaut Dachelet
+* Lise Guelton
+* Nicolas Machado Garcia
